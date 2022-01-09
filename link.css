@@ -1,0 +1,139 @@
+.icon{
+    width: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.logo{
+    width: px;
+    cursor: pointer;
+}
+
+nav{flex: 1;
+    text-align: right;}
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    
+    color: black;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover{
+    color: red;
+
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    margin: 30px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-top: 60px;
+     margin-left: 8%;
+    margin-right: 8%;
+
+}
+col{
+    flex-basis: 50%;
+
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+}
+p{
+    color: black;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: white;
+    font-size: 12px;
+    padding: 12px 0;
+    background: black;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    margin: 30px;
+
+}
+  span{
+   
+    color: orange;
+        
+    }
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+
+}
+
+.img-box:hover .back-img{
+    bottom: 40px;
+}
+
+}
+
+.img-box:hover .main-img{
+ top: 54px;
+}
+
+.social-media{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.social-media a{
+    font-size: 30px;
+    color: black;
+    margin-right:20px;
+
+}
+.social-media a:hover{
+    color: red;
+}
